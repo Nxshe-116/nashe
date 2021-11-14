@@ -218,6 +218,7 @@ color: #173b6c;
     height: 500px;
     padding: 0px;
 }
+
 .skills .progress {
     height: 60px;
     display: block;
@@ -230,7 +231,7 @@ color: #173b6c;
     text-transform: uppercase;
     display: block;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Mohave', sans-serif; 
     color: #050d18;
   }
   .skills .progress .skill .val {
@@ -240,12 +241,14 @@ color: #173b6c;
   .skills .progress-bar-wrap {
     background: #dce8f8;
     height: 10px;
+    width: 550px;
   }
   .skills .progress-bar {
-    width: 1px;
+    width: 100px;
     height: 10px;
     transition: 0.9s;
     background-color: #149ddd;
+
   }
   
   .row-skills-content{
@@ -263,3 +266,10 @@ color: #173b6c;
       display: flex;
       flex-direction: column;
   }
+
+  #HTML{width: 65%;}
+  #CSS{width: 70%;}
+  #JS{width: 20%;}
+  #java{width: 60%;}
+  #flutter{width: 55%;}
+  #ai{width: 65%;}
