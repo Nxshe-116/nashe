@@ -1,3 +1,12 @@
+*{
+  font-family: 'Mohave', sans-serif;
+ 
+}
+body{
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
 i{
     color: #000;
 }
@@ -194,7 +203,8 @@ color: #173b6c;
     justify-content: space-between;
     font-family: 'Mohave', sans-serif; 
     position: absolute;
-    left: 20%;
+    flex-direction: row;
+    left: 5%;
  
 }
 
@@ -205,8 +215,8 @@ color: #173b6c;
 
 .count-box{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 #skills{
@@ -273,3 +283,200 @@ color: #173b6c;
   #java{width: 60%;}
   #flutter{width: 55%;}
   #ai{width: 65%;}
+
+
+  .Edbg .Edbg-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  .Edbg .Edbg-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  .Edbg .Edbg-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  .Edbg .Edbg-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .Edbg .Edbg-item ul {
+    padding-left: 20px;
+  }
+  .Edbg .Edbg-item ul li {
+    padding-bottom: 10px;
+  }
+  .Edbg .Edbg-item:last-child {
+    padding-bottom: 0;
+  }
+  .Edbg .Edbg-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  .bg{
+    list-style-type: georgian;
+  }
+
+
+  .parent-container{
+    display: flex;
+    height:5000px;
+    width: 90%;
+    border: 1px solid #000; 
+   justify-content: flex-start;
+   justify-self: auto;
+   right: 0px;
+   
+  }
+  .services .icon-box {
+    margin-bottom: 20px;
+  }
+  .services .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+  }
+  .services .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+  }
+  .services .icon-box:hover .icon {
+    background: #fff;
+  }
+  .services .icon-box:hover .icon i {
+    color: #149ddd;
+  }
+  .services .title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .services .title a {
+    color: #343a40;
+  }
+  .services .title a:hover {
+    color: #149ddd;
+  }
+  .services .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  iframe{
+    left: 50%;
+  }
+  .servicecontainer{
+    border-top:1px solid #173b6c;
+    border-bottom: 1px solid #173b6c ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contact {
+    padding-bottom: 130px;
+  }
+  .contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+  }
+  .contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+  }
+  .contact .info .email p {
+    padding-top: 5px;
+  }
+  .contact .info .social-links {
+    padding-left: 60px;
+  }
+  .contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+  .contact .info .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+  }
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #149ddd;
+    color: #fff;
+  }
+  .contact {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .card-row{
+    width: 500px;
+  }
