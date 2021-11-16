@@ -1,0 +1,58 @@
+*{
+    font-family: 'Mohave', sans-serif; 
+    color: #fff;
+}
+body{
+    background-image: url(picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color:transparent;
+    top: 0%;
+
+    height: 80px;
+    border-bottom-left-radius: 9px;
+    padding: 3px;
+    justify-content: space-between;
+    right: 0%;
+}
+
+li{
+  list-style: none;
+ 
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.incontainer{
+margin: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(12px);
+    height: 300px;
+    width: 450px;
+    padding: 1%;
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
